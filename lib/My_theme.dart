@@ -8,27 +8,43 @@ class MyThemeData {
       scaffoldBackgroundColor: Colors.transparent,
       applyElevationOverlayColor: true,
       textTheme: TextTheme(
-        bodyLarge: TextStyle(
-          fontSize: 30,
-          fontWeight: FontWeight.bold,
-          color: Color(0xFF242424),
-        ),
-        bodyMedium: TextStyle(
-          fontSize: 25,
-          fontWeight: FontWeight.w600,
-          color: Color(0xFF242424),
-        ),
-        titleSmall: GoogleFonts.elMessiri(
-          fontSize: 30,
-          fontWeight: FontWeight.bold,
-          color: Color(0xFF242424),
-        ),
-        bodySmall: TextStyle(
-          fontSize: 25,
-          fontWeight: FontWeight.w300,
-          color: Color(0xFF242424),
-        ),
-      ),
+      //   bodyLarge: TextStyle(
+      //     fontSize: 30,
+      //     fontWeight: FontWeight.bold,
+      //     color: Color(0xFF242424),
+      //   ),
+      //   bodyMedium: TextStyle(
+      //     fontSize: 25,
+      //     fontWeight: FontWeight.w600,
+      //     color: Color(0xFF242424),
+      //   ),
+      //   titleSmall: GoogleFonts.elMessiri(
+      //     fontSize: 30,
+      //     fontWeight: FontWeight.bold,
+      //     color: Color(0xFF242424),
+      //   ),
+      //   bodySmall: TextStyle(
+      //     fontSize: 25,
+      //     fontWeight: FontWeight.w300,
+      //     color: Color(0xFF242424),
+      //   ),
+      // ),
+          bodyLarge: GoogleFonts.elMessiri(
+              fontSize: 30,
+              fontWeight: FontWeight.bold,
+              color: Color(0xFF242424)),
+          bodyMedium: GoogleFonts.elMessiri(
+              fontSize: 25,
+              fontWeight: FontWeight.w600,
+              color: Color(0xFF242424)),
+          titleSmall: GoogleFonts.elMessiri(
+              fontSize: 30,
+              fontWeight: FontWeight.bold,
+              color: Color(0xFF242424)),
+          bodySmall: GoogleFonts.elMessiri(
+              fontSize: 20,
+              fontWeight: FontWeight.w300,
+              color: Color(0xFF242424))),
       bottomNavigationBarTheme: BottomNavigationBarThemeData(
         backgroundColor: lightcolor,
         type:   BottomNavigationBarType.shifting,
